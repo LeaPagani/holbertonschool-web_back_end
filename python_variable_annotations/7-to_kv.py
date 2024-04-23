@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
-"""takes list of floats and ints and returns their sum as a float"""
+"""
+Function takes str(k) and int/float (v) and returns a tuple
+Tuple first element: str(k), second element: square int/float (v)
+"""
+from typing import Tuple, Union
 
 
-def to_kv(str(k), int or float(v)) -> tuple:
-    """return sum of list floats & ints"""
-    return sum(mxd_lst)
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
+    """return tuple"""
+    return (k, v * v)
