@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
-"""takes list of floats and ints and returns their sum as a float"""
+"""
+Function takes a List and returns the list 
+followed by the element length
+"""
+from typing import Iterable, List, Sequence, Tuple
 
 
-def element_length(lst):
+def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
+    """return obj and length"""
     return [(i, len(i)) for i in lst]

@@ -1,7 +1,15 @@
 #!/usr/bin/env python3
-"""takes list of floats and ints and returns their sum as a float"""
+"""
+Function make_multiplier takes float multiplier as argument 
+returns a function that multiplies a float by multiplier
+"""
+from typing import Callable
 
 
-def make_multiplier(float(multiplier)) -> multiplier:
-    """return sum of list floats & ints"""
-    return sum(mxd_lst)
+def make_multiplier(multiplier: float) -> Callable[[float], float]:
+    """return mult function"""
+    
+    def mult(n: float) -> float:
+        return n * multiplier
+    
+    return mult
