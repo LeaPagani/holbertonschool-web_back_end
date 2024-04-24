@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Function make_multiplier takes float multiplier as argument 
+Function make_multiplier takes float multiplier as argument
 returns a function that multiplies a float by multiplier
 """
 from typing import Callable
