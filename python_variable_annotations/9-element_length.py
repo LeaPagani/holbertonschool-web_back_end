@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Function takes a List and returns the list 
+Function takes a List and returns the list
 followed by the element length
 """
 from typing import Iterable, List, Sequence, Tuple
