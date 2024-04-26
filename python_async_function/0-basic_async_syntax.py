@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """
-Asynchronous coroutine takes an integer argument
-(max_delay, with default value of 10) named wait_random
-that waits for a random delay between 0 and max_delay
+Asynchronous coroutine takes an integer argument(max_delay)
+then waits for a random delay between 0 and max_delay
 seconds and eventually returns it as a float
 """
 import asyncio
